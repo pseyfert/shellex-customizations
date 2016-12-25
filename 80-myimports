@@ -1,0 +1,10 @@
+# disable ^S
+stty stop undef
+
+# don't use vim backward search, but emacs one
+bindkey '^R' history-incremental-pattern-search-backward
+# other fancy search
+bindkey '^S' history-beginning-search-backward
+
+#http://stackoverflow.com/questions/815686/unable-to-make-a-backward-tab-as-shift-tab-in-zsh
+bindkey '^[[Z' reverse-menu-complete

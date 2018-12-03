@@ -1,7 +1,7 @@
 # load tab completion stuff http://www.refining-linux.org/archives/40/ZSH-Gem-5-Menu-selection/
 fpath=(${HOME}/.local/share/zsh/completions ${fpath})
 autoload -U compinit
-compinit
+compinit -C
 
 setopt +o bashautolist
 setopt +o listambiguous

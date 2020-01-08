@@ -3,3 +3,10 @@ alias alsamixer='urxvt -e alsamixer'
 alias vim='urxvt -e vim'
 alias view='urxvt -e view'
 alias mplayer='urxvt -e mplayer'
+alias 'qrdisplay'='function :() {
+  file=$(mktemp --suffix=.png)
+  echo buffering in $file
+  qrencode -o $file "$@"
+  display $file
+  rm $file
+} ; :'

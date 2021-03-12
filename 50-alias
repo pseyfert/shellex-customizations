@@ -1,3 +1,4 @@
+# vim:ft=zsh
 alias linphone='pasuspender -- linphone'
 alias alsamixer='urxvt -e alsamixer'
 alias vim='urxvt -e vim'

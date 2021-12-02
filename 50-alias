@@ -1,6 +1,7 @@
 # vim:ft=zsh
 alias linphone='pasuspender -- linphone'
 alias alsamixer='urxvt -e alsamixer'
+alias htop='urxvt -e htop'
 alias vim='urxvt -e vim'
 alias view='urxvt -e view'
 alias mplayer='urxvt -e mplayer'

@@ -5,6 +5,8 @@ alias htop='urxvt -e htop'
 alias vim='urxvt -e vim'
 alias view='urxvt -e view'
 alias mplayer='urxvt -e mplayer'
+alias cppman='urxvt -e cppman'
+alias rm='rm -i'
 alias 'qrdisplay'='function :() {
   file=$(mktemp --suffix=.png)
   echo buffering in $file

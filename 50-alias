@@ -7,6 +7,7 @@ alias view='urxvt -e view'
 alias mplayer='urxvt -e mplayer'
 alias cppman='urxvt -e cppman'
 alias rm='rm -i'
+alias liferea='WEBKIT_DISABLE_DMABUF_RENDERER=1 liferea'
 alias 'qrdisplay'='function :() {
   file=$(mktemp --suffix=.png)
   echo buffering in $file
